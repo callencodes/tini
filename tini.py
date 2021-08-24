@@ -138,7 +138,7 @@ def askProjectInfo():
 @click.command()
 def main():
   """
-  Simple CLI to initialize a software development project
+  Simple tool to initialize a software development project
   """
   welcome("Tini CLI", color="red", figlet=True)
   welcome("Welcome to Tini CLI", "green")
