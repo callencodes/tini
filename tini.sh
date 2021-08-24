@@ -1,8 +1,7 @@
 #!/bin/bash
 
 function tini(){
-  cd ~/dev/tini
+  cd ~/path/to/tini
   . env/bin/activate
   python tini.py
-  cd ~/dev
 }
